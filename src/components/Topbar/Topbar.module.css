@@ -1,0 +1,41 @@
+.Topbar {
+    display: flex;
+    background: #ddd;
+    padding: 10px;
+}
+
+.Topbar > div {
+    align-self: center;
+}
+
+.Topbar .avatar img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.Topbar .search {
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+.Topbar .search input {
+    width: calc(100% - 10px);
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    font-size: large;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
+.Topbar .add button {
+    background: none;
+    border: none;
+    color: #111;
+}
+
+.Topbar .add button:hover {
+    color: #777;
+    cursor: pointer;
+}
