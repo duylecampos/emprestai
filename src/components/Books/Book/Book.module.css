@@ -1,0 +1,33 @@
+.Book {
+    position: relative;
+    align-self: auto;
+    margin: 20px;
+    width: 128px;
+}
+
+.Book .ownerName {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border: 1px solid gray;
+    color: #777;
+    padding: 5px;
+    font-size: 12px;
+    border-bottom: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Book .details {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(150,150,150,0.8);
+}
+
+.Book:hover .details {
+    display: block;
+}

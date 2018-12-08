@@ -5,7 +5,12 @@ import Books from './components/Books/Books';
 class App extends Component {
   state = {
     books: [
-      {name: 'Guia do mochileiro das galáxias'}
+      {
+        title: 'Guia do mochileiro das gálaxias',
+        writer: 'George Orwell',
+        owner: 'João',
+        cover: 'http://books.google.com/books/content?id=RhqJWjZ_6o4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api'
+      }
     ]
   }
 
