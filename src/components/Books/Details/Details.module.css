@@ -1,0 +1,37 @@
+.Details {
+    padding: 10px;
+}
+
+.Details .about {
+    display: flex;
+    background-color: #aaa;
+}
+
+.Details .about .cover {
+    flex-grow: 0;
+}
+
+.Details .about .details {
+    flex-grow: 1;
+    margin-left: 5px;
+}
+
+.Details .about .details h3 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.Details .about .details p {
+    margin-bottom: 5px;
+}
+
+.Details .abstract h3 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.Details .abstract p {
+    margin-top: 10px;
+    font-style: italic;
+}
